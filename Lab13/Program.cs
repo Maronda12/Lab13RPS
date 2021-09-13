@@ -32,11 +32,11 @@ namespace Lab13
 
 
 
-                Console.WriteLine($"You: {humanThrow} Computer: {opponentThrow}");
+                Console.WriteLine($"You choose: {humanThrow} Computer choose: {opponentThrow}");
 
                 if (humanThrow == Player.RPS.rock && opponentThrow == Player.RPS.rock)
                 {
-                    Console.WriteLine("DRAW!!");
+                    Console.WriteLine(" ITS A DRAW!!");
 
                 }
                 else if (humanThrow == Player.RPS.rock && opponentThrow == Player.RPS.paper)
@@ -53,7 +53,7 @@ namespace Lab13
                 }
                 else if (humanThrow == Player.RPS.paper && opponentThrow == Player.RPS.paper)
                 {
-                    Console.WriteLine("DRAW!!");
+                    Console.WriteLine(" ITS A DRAW!!");
 
                 }
                 else if (humanThrow == Player.RPS.paper && opponentThrow == Player.RPS.scissors)
@@ -70,7 +70,7 @@ namespace Lab13
                 }
                 else if (humanThrow == Player.RPS.scissors && opponentThrow == Player.RPS.scissors)
                 {
-                    Console.WriteLine("DRAW!!");
+                    Console.WriteLine("ITS A DRAW!!");
 
                 }
 
